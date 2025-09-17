@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Heart Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🌟 Play Music Button -->
+  <div style="text-align: center; margin-top: 20px;">
+    <button onclick="document.getElementById('bgMusic').play()" style="padding: 10px 20px; font-size: 16px; background-color: #f06292; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      Play Music 🎵
+    </button>
+  </div>
+
+  <!-- 🎵 Audio Element -->
+  <audio id="bgMusic" loop>
+    <source src="music/WhatsApp Video 2025-09-02 at 21.47.37_9908be3e.mp3" type="audio/mp3" />
+  </audio>
+
+  <div class="gallery-header fade-in">
+    <h1>Every picture of you here is beautiful</h1>
+    <p>On her special day, her smile lit up the moments — beauty captured in every frame, just like her 🐷</p>
+    <h1>Happy birthday yass🥼!!!</h1>
+  </div>
+
+  <center>
+<div class="heart-gallery fade-in">
+  <img src="image/image1..jpg"  style="animation-delay: 0s" />
+  <img src="image/image2..jpg"  style="animation-delay: 1s" />
+  <img src="image/image3 (1).jpg" style="animation-delay: 2s" />
+  <img src="image/image3 (2).jpg"  style="animation-delay: 3s" />
+  <img src="image/image3 (3).jpg"  style="animation-delay: 4s" />
+  <img src="image/image3 (4).jpg"  style="animation-delay: 5s" />
+  <img src="image/image3 (5).jpg"  style="animation-delay: 6s" />
+  <img src="image/image3 (6).jpg"  style="animation-delay: 7s" />
+  <img src="image/image3 (7).jpg" style="animation-delay: 8s" />
+  <img src="image/image3 (8).jpg" style="animation-delay: 9s" />
+  <img src="image/image3 (9).jpg" style="animation-delay: 10s" />
+  <img src="image/image (1).jpg" style="animation-delay: 11s" />
+  <img src="image/image (10).jpg" style="animation-delay: 12s" />
+  <img src="image/image (2).jpg" style="animation-delay: 13s" />
+  <img src="image/image (3).jpg" style="animation-delay: 14s" />
+  <img src="image/image (4).jpg" style="animation-delay: 15s" />
+  <img src="image/image (5).jpg" style="animation-delay: 16s" />
+  <img src="image/image (6).jpg" style="animation-delay: 17s" />
+  <img src="image/image (7).jpg" style="animation-delay: 18s" />
+  <img src="image/image (8).jpg" style="animation-delay: 19s" />
+  <img src="image/image (9).jpg" style="animation-delay: 20s" />
+  <img src="image/image (11).jpg" style="animation-delay: 21s" />
+  <img src="image/image (12).jpg" style="animation-delay: 22s" />
+  <img src="image/image (13).jpg" style="animation-delay: 23s" />
+  <img src="image/image (14).jpg" style="animation-delay: 24s" />
+  <img src="image/image (15).jpg" style="animation-delay: 25s" />
+  <img src="image/image (16).jpg" style="animation-delay: 26s" />
+</div>
+
+
+  </center>
+
+  <!-- 🌈 Optional personalization script -->
+  <script>
+    const name = new URLSearchParams(window.location.search).get("name");
+    if (name) {
+      const titleText = document.createElement("h2");
+      titleText.textContent = `This is for you, ${name} ❤️`;
+      titleText.style.textAlign = "center";
+      titleText.style.marginTop = "20px";
+      document.body.insertBefore(titleText, document.body.firstChild);
+    }
+  </script>
+  <div class="birthday-popup">
+   Happy Birthday princess madam💟!!
+  </div> 
+</body>
+</html>
